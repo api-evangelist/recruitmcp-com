@@ -64,5 +64,160 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-recruitmcp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://recruitmcp.com/
+RecruitMCP provides a recruiting data API and Managed Cloud Platform (MCP) that enables developers and agents to search for people, enrich candidate profiles, and retrieve company and contact information. The service offers searchable candidate data, email and phone enrichment, and integrates with AI assistants. It includes usage credits, preview mode, idempotency guarantees, and detailed error handling. The platform is accessible via a web console and RESTful endpoints, and is positioned as an alternative to traditional recruiting CRMs.
+
+**Areas:** Company · Recruitment · API · MCP · HR
+
+## recruitmcp-com on APIs.io
+
+Everything profiled for recruitmcp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/recruitmcp-com/](https://apis.io/providers/recruitmcp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [recruitmcp-com Account API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-account-api/) — The workspace and API keys.
+- [recruitmcp-com Billing API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-billing-api/) — Balance, usage, plans, checkout, and auto-refill.
+- [recruitmcp-com Companies API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-companies-api/) — Known companies, and resolving a company name to a URL.
+- [recruitmcp-com Contacts API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-contacts-api/) — Email and phone for a person, when you ask.
+- [recruitmcp-com Customers API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-customers-api/) — One workspace per end customer: its own seen register, lists, and caps. Credits stay on the account.
+- [recruitmcp-com Events API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-events-api/) — Account events and signed webhook endpoints.
+- [recruitmcp-com Lists API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-lists-api/) — Saved lists and the seen register.
+- [recruitmcp-com Privacy API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-privacy-api/) — Erasure, suppression, cache deletion, and the public opt-out.
+- [recruitmcp-com Profiles API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-profiles-api/) — Cached profiles, live profile fetches, a name and company match, and profile jobs.
+- [recruitmcp-com Search API](https://apis.io/apis/recruitmcp-com/recruitmcp-com-search-api/) — Search people, and look up places, areas, and filter ids.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Recruitmcp Com Webhooks](https://apis.io/asyncapis/recruitmcp-com/recruitmcp-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Recruitmcp Com Agentic Access](https://apis.io/agentic-access/recruitmcp-com/recruitmcp-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Contacts](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-contacts/)
+- [ContactsLookup](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-contacts-lookup/)
+- [Job](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-job/)
+- [PeopleSearchPage](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-people-search-page/)
+- [Profile](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-profile/)
+- [Workspace](https://apis.io/schemas/recruitmcp-com/recruitmcp-com-workspace/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Recruitmcp Com Context](https://apis.io/jsonld/recruitmcp-com/recruitmcp-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [recruitmcp-com API Rules](https://apis.io/rules/recruitmcp-com/recruitmcp-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Recruitmcp Com Authentication](https://apis.io/security/recruitmcp-com/recruitmcp-com-authentication/)
+- [Recruitmcp Com Domain Security](https://apis.io/security/recruitmcp-com/recruitmcp-com-domain-security/)
+- [Recruitmcp Com Trust Center](https://apis.io/security/recruitmcp-com/recruitmcp-com-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Recruitmcp Com Scopes](https://apis.io/scopes/recruitmcp-com/recruitmcp-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Recruitmcp Com Plans Pricing](https://apis.io/plans/recruitmcp-com/recruitmcp-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Recruitmcp Com Rate Limits](https://apis.io/rate-limits/recruitmcp-com/recruitmcp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://recruitmcp.com/)
+- [Documentation](https://recruitmcp.com/docs)
+- [Getting started](https://recruitmcp.com/docs/quickstart)
+- [API reference](https://recruitmcp.com/docs/api)
+- [Pricing](https://recruitmcp.com/pricing)
+- [Sign up](https://recruitmcp.com/login)
+- [Changelog](https://recruitmcp.com/changelog)
+- [Security](https://recruitmcp.com/security)
+- [Compliance](https://recruitmcp.com/security)
+- [Terms of service](https://recruitmcp.com/legal/terms)
+- [Privacy policy](https://recruitmcp.com/legal/privacy)
+- [Status](https://recruitmcp.com/status)
+
+## API Evangelist rating
+
+**Kin Score 75.6** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 73.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 68.9 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 79.5 |
+
+**Agent readiness 74.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/recruitmcp-com/](https://apis.io/providers/recruitmcp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for recruitmcp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/recruitmcp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
